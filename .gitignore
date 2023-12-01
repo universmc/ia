@@ -1,0 +1,7 @@
+# Ignorer le répertoire _node_modules généré par Node.js
+_node_modules/
+
+# Ignorer les fichiers spécifiques
+*.pyc  # Ignorer les fichiers bytecode Python
+*.log  # Ignorer les fichiers journaux
+
