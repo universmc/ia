@@ -1,0 +1,11 @@
+# FTP Access Configuration
+
+# Server Information univerq.cluster027.hosting.ovh.net
+Server: ftp://univerq@ftp.cluster027.hosting.ovh.net:21/ 
+Username: univerq
+Password: ftpmK2442cm
+
+# MySQL Database Configuration
+Database: univerqdatabase.mysql.db
+Username: univerqdatabase
+Password: sql@mK2442cm

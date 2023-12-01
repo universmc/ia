@@ -1,0 +1,7 @@
+/* templates/build/make-css-scss */
+@for $i from 1 through length($acts) {
+    .act#{$i} {
+      // Ajoutez ici les styles spécifiques à chaque acte.
+    }
+  }
+  

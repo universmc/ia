@@ -1,0 +1,18 @@
+from flask import Flask, render_template
+import tkinter as tk
+from tkinter import ttk
+from flaskwebgui import FlaskUI  # Import FlaskUI class
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/tkinter')
+def tkinter_page():
+    return render_template('tkinter.html')
+
+if __name__ == '__main__':
+    ui = FlaskUI(app)
+    ui.run()  # Remplacez app.run() par ui.run()

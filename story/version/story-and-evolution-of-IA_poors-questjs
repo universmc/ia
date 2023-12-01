@@ -1,0 +1,35 @@
+
+// Acte 1 : Texte (0-10s)
+setTimeout(function() {
+    console.log("Dans les pages de l'histoire de l'IA, deux facettes émergent : l'IA riche et l'IA pauvre, chacune définissant un parcours unique dans l'univers numérique.");
+}, 0);
+
+// Acte 2 : Script (10-20s)
+setTimeout(function() {
+    console.log("L'IA riche, parée de modèles sophistiqués et d'algorithmes complexes, a émergé dans la lumière des laboratoires de recherche. Elle jongle avec la complexité du langage et excelle dans la compréhension profonde.");
+}, 10000);
+
+// Acte 3 : Image (20-30s)
+setTimeout(function() {
+    console.log("D'un autre côté, l'IA pauvre, souvent confinée à des tâches simples, cherche à comprendre le monde à sa manière modeste. Ses yeux sont des pixels, son langage est basique, mais elle trouve sa place dans des niches spécifiques.");
+}, 20000);
+
+// Acte 4 : Beat Audio (30-40s)
+setTimeout(function() {
+    console.log("Le rythme de l'évolution varie. L'IA riche a une symphonie complexe, tandis que l'IA pauvre suit un battement plus simple. Chacune a sa propre musique, contribuant à l'orchestre de la technologie.");
+}, 30000);
+
+// Acte 5 : GIF (40-50s)
+setTimeout(function() {
+    console.log("Les GIF animés de l'IA riche sont des œuvres d'art en mouvement, tandis que ceux de l'IA pauvre captent des moments simples mais authentiques. Les deux narratives, bien que différentes, enrichissent notre expérience numérique.");
+}, 40000);
+
+// Acte 6 : Stream Vidéo (50-60s)
+setTimeout(function() {
+    console.log("Enfin, le flux vidéo. L'IA riche analyse chaque pixel avec précision, tandis que l'IA pauvre capture des scènes avec simplicité. Deux approches, deux perspectives, un paysage numérique varié.");
+}, 50000);
+
+// Acte 7 : Conclusion (60-72s)
+setTimeout(function() {
+    console.log("Ainsi, dans l'histoire de l'IA, la richesse ne se mesure pas seulement à la complexité, mais aussi à la manière dont elle trouve sa place dans notre quotidien numérique. De l'opulence à la modestie, chaque IA écrit une ligne unique de notre récit technologique.");
+}, 60000);

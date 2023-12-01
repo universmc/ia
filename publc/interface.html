@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>interface-graphique</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #0F0;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        cloud {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+        }
+
+        .spirit {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            background: repeating-linear-gradient(180deg, #003366, #003366 10px, #000 10px, #000 20px);
+        }
+    </style>
+</head>
+<body>
+    <cloud>
+        <!-- Insérez ici votre contenu en ASCII pour le nuage -->
+    </cloud>
+    <div class="spirit"></div>
+    <script>
+        // JavaScript si nécessaire
+    </script>
+</body>
+</html>
